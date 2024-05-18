@@ -12,14 +12,14 @@ import java.util.Objects;
  * @author arbol
  */
 public class Equipo implements Comparable, Serializable {
-
+//atributos de la clase
     private String nombre;
     private int partidosGanados;
     private int partidosEmpatados;
     private int partidosPerdidos;
     private int golesAFavor;
     private int golesEnContra;
-
+//Constructor de Equipo
     public Equipo(String nombre, int partidosGanados, int partidosEmpatados, int partidosPerdidos, int golesAFavor, int golesEnContra) {
         this.nombre = nombre;
         this.partidosGanados = 0;
