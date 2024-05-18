@@ -148,7 +148,7 @@ public class Equipo implements Comparable, Serializable {
     public String toString() {
         return  nombre + "\t" + puntos()+ "\t" + partidosGanados + "\t" + partidosEmpatados + "\t" + partidosPerdidos + "\t" + golesAFavor + "\t" + golesEnContra + "\t"  + "\t" + diferenciaDeGoles();
     }
-
+//implementación de compareTo
     @Override
     public int compareTo(Object objetoEquipo) {
 
